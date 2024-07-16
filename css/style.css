@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fauna+One&display=swap');
+
+.fauna-one-regular {
+    font-family: "Fauna One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cinzel-regular {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
+
+  
+:root {
+    --brown: #2F2323;
+    --red: #ca0923;
+    --tan: #FFEAD6;
+    --purple: #b4a3f7;
+    --darkpurple: #1d0854;
+    --blue: #052B76;
+    --yellow: #FFDE59;
+    --green: #0F8B8D;
+    --orange: #CA5010;
+    --white: white;
+    
+  }
+
+  body {
+    font-family: "Cinzel";
+    background-color: var(--tan);
+    color: var(--purple);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--darkpurple);
+    color: var(--white);
+    max-width: 100%;
+    max-height: 20%;
+    margin: none;
+  }
+  .head-bar {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  header ul {
+    list-style: none;
+  }
+.logo {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    max-width: 7rem;
+    max-height: 7rem;
+    margin: 1rem;
+
+}
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: var(--red);
+    padding: 1rem;
+}
+a:hover {
+    color: var(--purple)
+}
+.hero-section p {
+  padding: 0;
+  margin: 0;
+}
+.hero-section {
+  border-bottom: 16px solid transparent;
+  border-image: linear-gradient(45deg, orange , violet);
+  border-image-slice: 1;
+  background-color: var(--darkpurple);
+}
+.projects-section {
+  background-color: var(--tan);
+  height: 300px;
+}
+
+.contact-section {
+  background-color: #b4a3f7;
+  color: var(--red)
+}
+
+/* .button2 {
+    background-color: var(--red);
+    color: var(--White);
+    border-radius: 8px;
+    padding: .25rem .5rem;
+  }
+  .button2:hover {
+    background-color: var(--orange);
+    color: var(--); */
+  /* } */
+  h1 {
+    border: 2px red solid;
+   
+  }
+  h2 {
+    border: 2px pink solid;
+  }
+ h3 {
+  border: 2px green solid;
+ }
+
+  h4 {
+    border: 2px black solid;
+  } */
+  p {
+    border: 2px yellow  solid;
+  }
+
+ 
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    /* padding: 1rem; */
+  }
+
+ footer {
+  border-top: 16px solid transparent;
+  border-image: linear-gradient(45deg, orange , violet);
+  border-image-slice: 1;
+  background-color: var(--darkpurple);
+  color: var(--purple);
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 3rem;
+  text-align: center;
+  font-size: 1rem;
+ }
+ .contact-page-grid-container {
+  background-color:var(--Carrot);
+  color: #FFFFFF;
+  opacity: .5;
+}
+
+.contact-page-intro {
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+
+}
+.contact-page-grid-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+.contact-page-grid-container p {
+  text-align: center;
+  font-size: 1rem;
+}
+.contact-page-form-wrapper {
+  background-color: #FFFFFF;
+  color:var(--black);
+  max-width: 30%;
+  max-height: 40%;
+  border-radius: 8px;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+form {
+  padding: 1rem;
+}
+
+
+@media (max-width: 699px) {
+   
+    header ul {
+        list-style: none;
+    }
+    .hamburger-menu {
+      display: block;
+      background-color: var(--orange);
+      border: none;
+      grid-column: 4/5;
+      height: 20px;
+      width: 20px;
+    }
+    .nav {
+      position: absolute;
+      z-index: 1;
+      background: var(--Ironstone);
+      display: none;
+      top: 7rem;
+      width: 50%;
+      height: 38%;
+      justify-content: space-around;
+      transition: all 400ms;
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+         background: var(--Ironstone);
+      }
+    .nav-active {
+      right: 0;
+      display: block;
+    }
+    .navlink {
+      text-align: center;
+      justify-content: space-around;
+      margin: 1rem;
+      font-size: 25px;
+    }
+    .navlink a {
+      color: var(--Cream)
+    }
+   
+  }
