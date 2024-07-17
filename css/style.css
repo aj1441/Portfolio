@@ -204,7 +204,7 @@ form {
   header ul {
     list-style: none;
   }
-  .hamburger-menu {
+  .burger {
     display: block;
     background-color: var(--orange);
     border: none;
@@ -244,7 +244,7 @@ form {
   }
 }
  @media (min-width: 700px) {
-    .hamburger-menu {
+    .burger {
       display: none;
     }
     header {
