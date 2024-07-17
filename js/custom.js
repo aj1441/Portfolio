@@ -14,9 +14,38 @@ function showHamburger() {
 };
 
 
+console.log(projectData);
 
+const container = document.getElementById("projectCards");
 
+function createCards () {
+    for (let item of projectData) {
+        let cardContainer = document.createElement("div");
+        cardContainer.className = "card";
+        cardContainer.innerHTML= `<div class="card" id="projectCards">
+     <h4 class="project-title">${item.title}</h4>
+     <img class="card-image" src=${item.image} alt="${item.image}">
+     <p class="card-description">${item.description}</p>
+     <a class="card-link" href="${item.link}">View the Site</a>`
+    
+     container.appendChild(cardContainer);
+    }
+}
 
+createCards ()
+
+// const cardContainer = document.getElementById("projectCards");
+// function createCards() {
+// projectData.forEach((item)=> {
+
+//   console.log(item.title);
+// console.log(item.image);
+// console.log(item.description);
+// console.log(item.link);
+
+// })
+// }
+// createCards()
 
 //Pseudocode JS Page-----------------------------------------------------------
 //Display time in NYC  
