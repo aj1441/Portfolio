@@ -1,15 +1,20 @@
-// import projectData from "../data/data.js";
-// console.log(projectData);
-
-console.log("hello");
-
-const burger = document.querySelector(".hamburger-menu i");
+const burger = document.querySelector(".burger i");
 const nav = document.querySelector(".nav");
 
 function showHamburger() {
   burger.classList.toggle("fa-times");
   nav.classList.toggle("nav-active"); 
 }
+
+import projectData from "../data/data.js";
+console.log(projectData);
+
+console.log("hello");
+
+let projectOne = document.getElementsByClassName
+
+
+
 
 
 

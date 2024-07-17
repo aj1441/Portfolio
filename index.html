@@ -1,52 +1,63 @@
 <!DOCTYPE html>
-<http://127.0.0.1:5500/img/hawk-logo-removebg-preview.pnghtml lang="en">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aj Smith Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aj Smith Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <script src="https://kit.fontawesome.com/b538338767.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
 </head>
+
 <body>
-    <div class="contact-page-grid-container">
+  <div class="contact-page-grid-container">
     <header>
-        <div class="head-bar">
+      <div class="head-bar">
         <div class="hex-logo-wrapper">
-        <img class="logo" src="img/logo.png"A graphic honeycomb logo for Aj Smith Jr Developer in tones of purple, orange and red.">
-         </div>
+          <img class="logo" src="img/logo.png" alt="A graphic honeycomb logo for Aj Smith Jr Developer in tones of purple, orange and red." />
+        </div>
         <nav class="nav">
-            <ul>                
-                <li class="navlink"><a href="index.html">Projects</a></li>
-                <li class="navlink"><a href="about.html">About</a></li>
-                <li class="navlink"><a href="jspage.html">JavaScript</a></li>
-                <li class="navlink"><a href="contact.html" >Contact</a></li>
-                <li class="navlink"><a href="#" target="_blank">Resume</a></li>
-            </ul>
-            <button><i class="fa fa-linkedin"></i></button>
-            <button><i class="fa fa-github"></i></button>
-            <button class=" resume">Resume</button>
+          <ul>
+            <li class="navlink"><a href="index.html">Projects</a></li>
+            <li class="navlink"><a href="about.html">About</a></li>
+            <li class="navlink"><a href="projects.html">JavaScript</a></li>
+            <li class="navlink"><a href="contact.html">Contact</a></li>
+            <li class="navlink"><i class="fa-brands fa-linkedin"></i></li>
+            <li class="navlink"><i class="fa-brands fa-github"></i></li>
+            <li class="navlink"><button class="resume-btn" href="#" target="_blank">Resume</button></li>
+          </ul>
         </nav>
-        <button onclick="showHamburger()" class="burger">
+        <div class="burger">
+          <button onclick="showHamburger()" class="hamburger-menu">
             <i class="fa fa-bars"></i>
           </button>
-        </button>
-    </div>
+        </div>
+      </div>
     </header>
     <section class="hero-section">
-            <p>Hi my name is</p>
-            <h1>Aj Smith</h1>
-            <h2>I code the web.</h2>
-            <p>I'm a student learning HTML, CSS and vanilla JavaScript</p>
+      <p>Hi my name is</p>
+      <h1>Aj Smith</h1>
+      <h2>I code the web.</h2>
+      <p>I'm a student learning HTML, CSS and vanilla JavaScript</p>
     </section>
-    <section class="projects-section">Cards will go in here</section>
+    <section class="projects-section"></section>
     <section class="contact-section">
-        <p>Contact Me</p>
-        <p>I'm always interested in hearing about opportunities for learning, interships or jobs.</p>
-        <button>Contact Me</button>
+      <p>Contact Me</p>
+      <p>I'm always interested in hearing about opportunities for learning, interships or jobs.</p>
+      <button>Contact Me</button>
     </section>
-    <footer><p> &copy;  2024 Aj Smith. All Rights Reserved.</p></footer>
-</div>
-   <script type="module" src="js/custom.js"></script> 
+    <footer>
+      <p class="footer-title">Aj Smith * Developer</p>
+      <button class="fontawesome"><i class="fa-brands fa-linkedin"></i></button>
+      <button class="fontawesome"><i class="fa-brands fa-github"></i></button>
+      <button class="fontawesome"><i class="fa-solid fa-envelope"></i></button>
+      <p> &copy; 2024 Aj Smith. All Rights Reserved.</p>
+    </footer>
+  </div>
+  <script type="module" src="js/custom.js"></script>
 </body>
+
 </html>
