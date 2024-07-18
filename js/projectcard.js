@@ -1,5 +1,5 @@
-import projectData from "../data/data.js";
-console.log(projectData);
+// import projectData from "../data/data.js";
+// console.log(projectData);
 
 
 // projectData.forEach((item)=> {

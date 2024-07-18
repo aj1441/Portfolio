@@ -21,8 +21,8 @@ const container = document.getElementById("projectCards");
 function createCards () {
     for (let item of projectData) {
         let cardContainer = document.createElement("div");
-        cardContainer.className = "card";
-        cardContainer.innerHTML= `<div class="card" id="projectCards">
+        cardContainer.className = "card-wrapper";
+        cardContainer.innerHTML= `<div class="card" id="card">
      <h4 class="project-title">${item.title}</h4>
      <img class="card-image" src=${item.image} alt="${item.image}">
      <p class="card-description">${item.description}</p>
