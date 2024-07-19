@@ -18,4 +18,4 @@ const projectData = [
         link: "https://aj1441.github.io/farmers-market/",
     }
 ]
-// export default projectData;
+export default projectData;
